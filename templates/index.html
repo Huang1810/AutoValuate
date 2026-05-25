@@ -19,7 +19,6 @@
 
         <div class="card-body">
 
-            <!-- FORM (NO PAGE REDIRECT) -->
             <form id="carForm">
 
                 <div class="form-group text-center">
@@ -105,16 +104,16 @@
 
             <br>
 
-            <!-- RESULT HERE -->
             <div class="text-center">
-                <h4>Predicted Price: <span id="prediction"></span></h4>
+                <h4>
+                    Predicted Price: <span id="prediction" class="text-success"></span>
+                </h4>
             </div>
 
         </div>
     </div>
 </div>
 
-<!-- AJAX SCRIPT -->
 <script>
 document.getElementById("carForm").addEventListener("submit", function(e){
     e.preventDefault();
@@ -129,9 +128,10 @@ document.getElementById("carForm").addEventListener("submit", function(e){
     })
     .then(response => response.text())
     .then(data => {
-        document.getElementById("prediction").innerText = "₹ " + data;
+        document.getElementById("prediction").innerText =
+            "$ " + parseFloat(data).toFixed(2);
     })
-    .catch(error => {
+    .catch(() => {
         document.getElementById("prediction").innerText = "Error!";
     });
 });
