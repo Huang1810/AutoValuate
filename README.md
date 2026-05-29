@@ -130,25 +130,12 @@ AutoValuate/
 │
 └── README.md
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## 🚀 Installation
-1️⃣ Clone the Repository
+
+### 1️⃣ Clone the Repository
+```bash
 git clone <repository-url>
 cd AutoValuate
 2️⃣ Create Virtual Environment
@@ -164,10 +151,10 @@ http://127.0.0.1:5000
 User enters vehicle information
 Flask receives form data
 Input data is converted into a Pandas DataFrame
-The trained Random Forest pipeline preprocesses features
+The trained Random Forest pipeline processes features
 The model predicts the estimated vehicle price
 Result is displayed on the webpage
-## 🚀 Future Improvements
+🚀 Future Improvements
 Add dynamic model filtering based on selected brand
 Deploy application to Render or Railway
 Implement currency conversion options
@@ -175,12 +162,12 @@ Add feature importance visualization
 Experiment with XGBoost and LightGBM models
 Improve UI/UX design
 Add prediction history and analytics dashboard
-## 👨‍💻 Author
+👨‍💻 Author
 
 Ahmed
 Machine Learning & Software Engineering Student
 Holberton School
 
-## 📄 License
+📄 License
 
 This project is for educational and portfolio purposes.
