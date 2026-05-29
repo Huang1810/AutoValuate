@@ -130,9 +130,7 @@ AutoValuate/
 │
 └── README.md
 
----
-
-🚀 Installation
+## 🚀 Installation
 1️⃣ Clone the Repository
 git clone <repository-url>
 cd AutoValuate
@@ -152,7 +150,7 @@ Input data is converted into a Pandas DataFrame
 The trained Random Forest pipeline preprocesses features
 The model predicts the estimated vehicle price
 Result is displayed on the webpage
-🚀 Future Improvements
+## 🚀 Future Improvements
 Add dynamic model filtering based on selected brand
 Deploy application to Render or Railway
 Implement currency conversion options
@@ -160,12 +158,12 @@ Add feature importance visualization
 Experiment with XGBoost and LightGBM models
 Improve UI/UX design
 Add prediction history and analytics dashboard
-👨‍💻 Author
+## 👨‍💻 Author
 
 Ahmed
 Machine Learning & Software Engineering Student
 Holberton School
 
-📄 License
+## 📄 License
 
 This project is for educational and portfolio purposes.
