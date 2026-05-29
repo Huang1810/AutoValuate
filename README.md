@@ -130,6 +130,8 @@ AutoValuate/
 │
 └── README.md
 
+---
+
 🚀 Installation
 1️⃣ Clone the Repository
 git clone <repository-url>
