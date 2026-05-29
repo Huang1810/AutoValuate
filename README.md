@@ -104,6 +104,7 @@ The Random Forest model significantly outperformed Linear Regression and was sel
 ```text
 AutoValuate/
 │
+├── AutoValuate.ipynb
 ├── app.py
 ├── RandomForestCarPriceModel.pkl
 ├── requirements.txt
